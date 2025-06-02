@@ -1,4 +1,4 @@
-from botcity.plugins.email import BotEmailPlugin
+from botcity.plugins.email import BotEmailPlugin, MailServers
 
 def ler_email(usuario: str, senha: str, assunto: str) -> list:
     """

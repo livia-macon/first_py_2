@@ -2,7 +2,7 @@ import csv
 import os
 
 def ler_csv(arquivo: str) -> list:
-     """
+    """
     Função para ler um arquivo CSV e retornar o conteúdo como uma lista de dicionários.
          
     Args:
